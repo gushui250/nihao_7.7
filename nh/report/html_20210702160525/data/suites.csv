@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 02 16:04:20 CST 2021","Fri Jul 02 16:05:02 CST 2021","42378","testcase","test_case01","Test_BaiduSearch","","","test01[params0]","
+        登录case用例
+        :param params:
+        :return:
+        "

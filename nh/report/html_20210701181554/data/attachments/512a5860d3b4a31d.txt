@@ -1,0 +1,1 @@
+INFO     root:logger.py:50 Open url: https://www.nhtest.com/en/customer

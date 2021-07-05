@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'str' object has no attribute 'clear'",
+      "children" : [ {
+        "name" : "test01[params0]",
+        "uid" : "fe4e2b393c51d6e9",
+        "parentUid" : "9626a9f72ef6e779007981e8242c0516",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625129250553,
+          "stop" : 1625129271303,
+          "duration" : 20750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账号', 'send_keys', 'xpath=>//*[@id=\"email\"]', '2770488802@qq.com\\n'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]}]" ]
+      } ],
+      "uid" : "9626a9f72ef6e779007981e8242c0516"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

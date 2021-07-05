@@ -1,0 +1,187 @@
+{
+  "uid" : "fe4e2b393c51d6e9",
+  "name" : "test01[params0]",
+  "fullName" : "testcase.test_case01.Test_BaiduSearch#test01",
+  "historyId" : "e45bb6e2f90731b6e79db1fedb87cf82",
+  "time" : {
+    "start" : 1625129250553,
+    "stop" : 1625129271303,
+    "duration" : 20750
+  },
+  "description" : "\n        登录case用例\n        :param params:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    登录case用例\n    :param params:\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'str' object has no attribute 'clear'",
+  "statusTrace" : "self = <testcase.test_case01.Test_BaiduSearch object at 0x000001F1C5503F60>\nparams = [['打开网页', 'open_browser', 'https://www.nhtest.com'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账...'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]\n\n    @pytest.mark.parametrize('params',list(Data_().data03(3)))\n    def test01(self,params):\n        '''\n        登录case用例\n        :param params:\n        :return:\n        '''\n    \n        params=params[0]['tital']\n        print(params)\n        for i in params:\n            if i!=None:\n                with allure.step(i[0]):\n                    func=getattr(self.driver,i[1])\n                    cases = [i for i in list(i[2:]) if i != '' and i !='\\n']\n                    print(cases)\n>                   func(*cases)\n\ntest_case01.py:197: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <framework.base_page.BasePage object at 0x000001F1C54B8208>\nselector = 'xpath=>//*[@id=\"email\"]', text = '2770488802@qq.com'\n\n    def send_keys(self, selector, text=None):\n        try:\n            if text.endswith('\\n'):\n                text=text.replace('\\n','')\n        except:\n            if text==None:\n                text=random.randint(1,9999)\n    \n        el = self.find_element(selector)\n>       el.clear()\nE       AttributeError: 'str' object has no attribute 'clear'\n\n..\\framework\\base_page.py:197: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_BaiduSearch",
+    "time" : {
+      "start" : 1625129248935,
+      "stop" : 1625129250552,
+      "duration" : 1617
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        登录case用例\n        :param params:\n        :return:\n        ",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'str' object has no attribute 'clear'",
+    "statusTrace" : "self = <testcase.test_case01.Test_BaiduSearch object at 0x000001F1C5503F60>\nparams = [['打开网页', 'open_browser', 'https://www.nhtest.com'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账...'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]\n\n    @pytest.mark.parametrize('params',list(Data_().data03(3)))\n    def test01(self,params):\n        '''\n        登录case用例\n        :param params:\n        :return:\n        '''\n    \n        params=params[0]['tital']\n        print(params)\n        for i in params:\n            if i!=None:\n                with allure.step(i[0]):\n                    func=getattr(self.driver,i[1])\n                    cases = [i for i in list(i[2:]) if i != '' and i !='\\n']\n                    print(cases)\n>                   func(*cases)\n\ntest_case01.py:197: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <framework.base_page.BasePage object at 0x000001F1C54B8208>\nselector = 'xpath=>//*[@id=\"email\"]', text = '2770488802@qq.com'\n\n    def send_keys(self, selector, text=None):\n        try:\n            if text.endswith('\\n'):\n                text=text.replace('\\n','')\n        except:\n            if text==None:\n                text=random.randint(1,9999)\n    \n        el = self.find_element(selector)\n>       el.clear()\nE       AttributeError: 'str' object has no attribute 'clear'\n\n..\\framework\\base_page.py:197: AttributeError",
+    "steps" : [ {
+      "name" : "打开网页",
+      "time" : {
+        "start" : 1625129250553,
+        "stop" : 1625129256448,
+        "duration" : 5895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70141a75598c78b4",
+        "name" : "截图",
+        "source" : "70141a75598c78b4.png",
+        "type" : "image/png",
+        "size" : 996341
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1625129256448,
+        "stop" : 1625129261153,
+        "duration" : 4705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8441f1025bb56dc5",
+        "name" : "截图",
+        "source" : "8441f1025bb56dc5.png",
+        "type" : "image/png",
+        "size" : 646108
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入账号",
+      "time" : {
+        "start" : 1625129261153,
+        "stop" : 1625129271302,
+        "duration" : 10149
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'str' object has no attribute 'clear'\n",
+      "statusTrace" : "  File \"E:\\nh修正版\\nh\\testcase\\test_case01.py\", line 197, in test01\n    func(*cases)\n  File \"E:\\nh修正版\\nh\\framework\\base_page.py\", line 197, in send_keys\n    el.clear()\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "726163a18d84e188",
+        "name" : "错误截图",
+        "source" : "726163a18d84e188.png",
+        "type" : "image/png",
+        "size" : 213318
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b1c675fabff779d5",
+      "name" : "log",
+      "source" : "b1c675fabff779d5.txt",
+      "type" : "text/plain",
+      "size" : 850
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_BaiduSearch::0",
+    "time" : {
+      "start" : 1625129273575,
+      "stop" : 1625129273575,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "项目名称: 旎浩"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_BaiduSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T311BD1"
+  }, {
+    "name" : "thread",
+    "value" : "2796-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账号', 'send_keys', 'xpath=>//*[@id=\"email\"]', '2770488802@qq.com\\n'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fe4e2b393c51d6e9.json",
+  "parameterValues" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账号', 'send_keys', 'xpath=>//*[@id=\"email\"]', '2770488802@qq.com\\n'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]}]" ]
+}

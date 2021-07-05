@@ -1,0 +1,60 @@
+{
+  "55e9cf5e5f3f92d8840e05e0748a4886" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4059f76ac83e403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625220194898,
+        "stop" : 1625220237384,
+        "duration" : 42486
+      }
+    } ]
+  },
+  "b6ac0c15506aa4c4e70a75877e3be6ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9576430f1814bb3f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'clear'",
+      "time" : {
+        "start" : 1625220153991,
+        "stop" : 1625220174771,
+        "duration" : 20780
+      }
+    } ]
+  },
+  "ac9967a409e64c1ab24771bc1cb829a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d1ba90540f3fe72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625220257461,
+        "stop" : 1625220298619,
+        "duration" : 41158
+      }
+    } ]
+  }
+}

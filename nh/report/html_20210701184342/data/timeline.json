@@ -1,0 +1,99 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-T311BD1",
+    "children" : [ {
+      "name" : "30288-MainThread",
+      "children" : [ {
+        "name" : "test01[params0]",
+        "uid" : "70c11e8089d924dc",
+        "parentUid" : "ba0baec991d56a79e7948dd9a4afb222",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625136133483,
+          "stop" : 1625136133483,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['跳到我的页面', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['跳到my order页面', 'click', 'xpath=>/html/body/div[6]/div[1]/div/ul/li[3]/a'], ['点击我的第一个订单', 'click', 'xpath=>/html/body/div[6]/div[2]/div/div[2]/table/tbody/tr[1]/td[1]'], ['勾选全部按钮', 'click', 'xpath=>//*[@id=\"selectAllCheckbox\"]'], ['点击加入购物车', 'click', 'xpath=>/html/body/div[6]/div/div/div[2]/div[1]/div[1]/div/button'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a']]}]" ]
+      }, {
+        "name" : "test01[params1]",
+        "uid" : "e033830e8e422cd2",
+        "parentUid" : "ba0baec991d56a79e7948dd9a4afb222",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625136136859,
+          "stop" : 1625136136859,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a'], ['点击checkout now', 'click', 'xpath=>//*[@id=\"J_Total_Cart\"]/div[2]/div[2]/a'], ['点击pay now', 'click', 'xpath=>//*[@id=\"orderForm\"]/div/div[3]/div[2]/div[15]/button'], ['选择西联支付', 'click', 'xpath=>/html/body/div[4]/div[1]/div[1]/div[9]/div[1]/i'], ['点击pay now', 'click', 'xpath=>//*[@id=\"payJump\"]'], ['点击确定', 'click', 'xpath=>//*[@id=\"J_Card_Modal\"]/div/span[1]']]}]" ]
+      } ],
+      "uid" : "ba0baec991d56a79e7948dd9a4afb222"
+    }, {
+      "name" : "29144-MainThread",
+      "children" : [ {
+        "name" : "test01[params0]",
+        "uid" : "5877c12bfd0048b2",
+        "parentUid" : "f26d2c1daf0d1604ee2bcbb0094cd7f3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625136219384,
+          "stop" : 1625136219384,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['跳到我的页面', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['跳到my order页面', 'click', 'xpath=>/html/body/div[6]/div[1]/div/ul/li[3]/a'], ['点击我的第一个订单', 'click', 'xpath=>/html/body/div[6]/div[2]/div/div[2]/table/tbody/tr[1]/td[1]'], ['勾选全部按钮', 'click', 'xpath=>//*[@id=\"selectAllCheckbox\"]'], ['点击加入购物车', 'click', 'xpath=>/html/body/div[6]/div/div/div[2]/div[1]/div[1]/div/button'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a']]}]" ]
+      }, {
+        "name" : "test01[params1]",
+        "uid" : "3919fe27859d2ef8",
+        "parentUid" : "f26d2c1daf0d1604ee2bcbb0094cd7f3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625136222717,
+          "stop" : 1625136222717,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a'], ['点击checkout now', 'click', 'xpath=>//*[@id=\"J_Total_Cart\"]/div[2]/div[2]/a'], ['点击pay now', 'click', 'xpath=>//*[@id=\"orderForm\"]/div/div[3]/div[2]/div[15]/button'], ['选择西联支付', 'click', 'xpath=>/html/body/div[4]/div[1]/div[1]/div[9]/div[1]/i'], ['点击pay now', 'click', 'xpath=>//*[@id=\"payJump\"]'], ['点击确定', 'click', 'xpath=>//*[@id=\"J_Card_Modal\"]/div/span[1]']]}]" ]
+      } ],
+      "uid" : "f26d2c1daf0d1604ee2bcbb0094cd7f3"
+    }, {
+      "name" : "34748-MainThread",
+      "children" : [ {
+        "name" : "test01[params0]",
+        "uid" : "9e0ed0dd702b90d",
+        "parentUid" : "397c1d353a0859b078bb4eace53e8903",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625135520486,
+          "stop" : 1625135520486,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['跳到我的页面', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['跳到my order页面', 'click', 'xpath=>/html/body/div[6]/div[1]/div/ul/li[3]/a'], ['点击我的第一个订单', 'click', 'xpath=>/html/body/div[6]/div[2]/div/div[2]/table/tbody/tr[1]/td[1]'], ['勾选全部按钮', 'click', 'xpath=>//*[@id=\"selectAllCheckbox\"]'], ['点击加入购物车', 'click', 'xpath=>/html/body/div[6]/div/div/div[2]/div[1]/div[1]/div/button'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a']]}]" ]
+      }, {
+        "name" : "test01[params1]",
+        "uid" : "95ddaa2008179d42",
+        "parentUid" : "397c1d353a0859b078bb4eace53e8903",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625135523863,
+          "stop" : 1625135523863,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a'], ['点击checkout now', 'click', 'xpath=>//*[@id=\"J_Total_Cart\"]/div[2]/div[2]/a'], ['点击pay now', 'click', 'xpath=>//*[@id=\"orderForm\"]/div/div[3]/div[2]/div[15]/button'], ['选择西联支付', 'click', 'xpath=>/html/body/div[4]/div[1]/div[1]/div[9]/div[1]/i'], ['点击pay now', 'click', 'xpath=>//*[@id=\"payJump\"]'], ['点击确定', 'click', 'xpath=>//*[@id=\"J_Card_Modal\"]/div/span[1]']]}]" ]
+      } ],
+      "uid" : "397c1d353a0859b078bb4eace53e8903"
+    } ],
+    "uid" : "047d9d2984a25a21d0de3d78c00a1bbf"
+  } ]
+}

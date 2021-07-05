@@ -1,0 +1,62 @@
+{
+  "840eb64913aca49ffefce47a8769c3ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62d3e6cdd8a99e99",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1625134249057,
+        "stop" : 1625134261069,
+        "duration" : 12012
+      }
+    } ]
+  },
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22fc8d3fbf7a322c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1625134229899,
+        "stop" : 1625134248918,
+        "duration" : 19019
+      }
+    } ]
+  },
+  "80f4977b99497c6b5b378df020aa507c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83c70c0073e9683b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1625134261097,
+        "stop" : 1625134273109,
+        "duration" : 12012
+      }
+    } ]
+  }
+}

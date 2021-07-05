@@ -1,0 +1,27 @@
+INFO     root:logger.py:50 Open url: https://www.nhtest.com/en/customer
+INFO     root:logger.py:50 Maximize the current window.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Set implicitly wait 10 seconds.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Had find the element //*[@id="g-head"]/div/p/a successful 
+INFO     root:logger.py:50 The element xpath=>//*[@id="g-head"]/div/p/a was clicked.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Had find the element //*[@id="J_HeadCart"]/div/a successful 
+INFO     root:logger.py:50 The element xpath=>//*[@id="J_HeadCart"]/div/a was clicked.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Had find the element //*[@id="J_Total_Cart"]/div[2]/div[2]/a successful 
+INFO     root:logger.py:50 The element xpath=>//*[@id="J_Total_Cart"]/div[2]/div[2]/a was clicked.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Had find the element //*[@id="orderForm"]/div/div[3]/div[2]/div[15]/button successful 
+INFO     root:logger.py:50 The element xpath=>//*[@id="orderForm"]/div/div[3]/div[2]/div[15]/button was clicked.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Had find the element /html/body/div[4]/div[1]/div[1]/div[9]/div[1]/i successful 
+INFO     root:logger.py:50 The element xpath=>/html/body/div[4]/div[1]/div[1]/div[9]/div[1]/i was clicked.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Had find the element //*[@id="payJump"] successful 
+INFO     root:logger.py:50 The element xpath=>//*[@id="payJump"] was clicked.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Had find the element //*[@id="J_Card_Modal"]/div/span[1] successful 
+INFO     root:logger.py:50 The element xpath=>//*[@id="J_Card_Modal"]/div/span[1] was clicked.
+INFO     root:logger.py:50 Closing and quit the browser.
+INFO     root:logger.py:50 Now, Close and quit the browser.

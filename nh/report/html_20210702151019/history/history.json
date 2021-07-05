@@ -1,0 +1,41 @@
+{
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f314a4e7a815f9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625209759765,
+        "stop" : 1625209797006,
+        "duration" : 37241
+      }
+    } ]
+  },
+  "840eb64913aca49ffefce47a8769c3ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "718e0992bd0e397e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id",
+      "time" : {
+        "start" : 1625209817081,
+        "stop" : 1625209817126,
+        "duration" : 45
+      }
+    } ]
+  }
+}

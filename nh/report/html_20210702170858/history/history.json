@@ -1,0 +1,61 @@
+{
+  "840eb64913aca49ffefce47a8769c3ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eeb7bab387db6c89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625216752102,
+        "stop" : 1625216864317,
+        "duration" : 112215
+      }
+    } ]
+  },
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2f52864012c3d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'clear'",
+      "time" : {
+        "start" : 1625216733088,
+        "stop" : 1625216751818,
+        "duration" : 18730
+      }
+    } ]
+  },
+  "80f4977b99497c6b5b378df020aa507c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d82ce5e2ce96c6e2",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Test_BaiduSearch' has no attribute 'story'",
+      "time" : {
+        "start" : 1625216884395,
+        "stop" : 1625216935797,
+        "duration" : 51402
+      }
+    } ]
+  }
+}

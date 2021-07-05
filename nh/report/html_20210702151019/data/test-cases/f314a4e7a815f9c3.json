@@ -1,0 +1,282 @@
+{
+  "uid" : "f314a4e7a815f9c3",
+  "name" : "test01[params0]",
+  "fullName" : "testcase.test_case01.Test_BaiduSearch#test01",
+  "historyId" : "e45bb6e2f90731b6e79db1fedb87cf82",
+  "time" : {
+    "start" : 1625209759765,
+    "stop" : 1625209797006,
+    "duration" : 37241
+  },
+  "description" : "\n        登录case用例\n        :param params:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    登录case用例\n    :param params:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_BaiduSearch",
+    "time" : {
+      "start" : 1625209758071,
+      "stop" : 1625209759745,
+      "duration" : 1674
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        登录case用例\n        :param params:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开网页",
+      "time" : {
+        "start" : 1625209759777,
+        "stop" : 1625209765979,
+        "duration" : 6202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee91bea1677a518d",
+        "name" : "截图",
+        "source" : "ee91bea1677a518d.png",
+        "type" : "image/png",
+        "size" : 405039
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "跳到首页",
+      "time" : {
+        "start" : 1625209765979,
+        "stop" : 1625209770967,
+        "duration" : 4988
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8e29b63211934632",
+        "name" : "截图",
+        "source" : "8e29b63211934632.png",
+        "type" : "image/png",
+        "size" : 408123
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "跳到我的页面",
+      "time" : {
+        "start" : 1625209770967,
+        "stop" : 1625209776353,
+        "duration" : 5386
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f1d0e7d4254775e3",
+        "name" : "截图",
+        "source" : "f1d0e7d4254775e3.png",
+        "type" : "image/png",
+        "size" : 764090
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "跳到my order页面",
+      "time" : {
+        "start" : 1625209776353,
+        "stop" : 1625209781007,
+        "duration" : 4654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f9df8ef8311ad6e",
+        "name" : "截图",
+        "source" : "9f9df8ef8311ad6e.png",
+        "type" : "image/png",
+        "size" : 209402
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击我的第一个订单",
+      "time" : {
+        "start" : 1625209781007,
+        "stop" : 1625209785615,
+        "duration" : 4608
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4dd6873b480ca1d",
+        "name" : "截图",
+        "source" : "f4dd6873b480ca1d.png",
+        "type" : "image/png",
+        "size" : 212576
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "勾选全部按钮",
+      "time" : {
+        "start" : 1625209785615,
+        "stop" : 1625209788818,
+        "duration" : 3203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "878f5e73aa15c055",
+        "name" : "截图",
+        "source" : "878f5e73aa15c055.png",
+        "type" : "image/png",
+        "size" : 220708
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击加入购物车",
+      "time" : {
+        "start" : 1625209788818,
+        "stop" : 1625209792001,
+        "duration" : 3183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db36c6d222404772",
+        "name" : "截图",
+        "source" : "db36c6d222404772.png",
+        "type" : "image/png",
+        "size" : 221295
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击购物车图标",
+      "time" : {
+        "start" : 1625209792001,
+        "stop" : 1625209797006,
+        "duration" : 5005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bec8569be7ba817c",
+        "name" : "截图",
+        "source" : "bec8569be7ba817c.png",
+        "type" : "image/png",
+        "size" : 276938
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "42a00e0813d849d7",
+      "name" : "log",
+      "source" : "42a00e0813d849d7.txt",
+      "type" : "text/plain",
+      "size" : 2268
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_BaiduSearch::0",
+    "time" : {
+      "start" : 1625209817201,
+      "stop" : 1625209819225,
+      "duration" : 2024
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "项目名称: 旎浩"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_BaiduSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T311BD1"
+  }, {
+    "name" : "thread",
+    "value" : "16380-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['跳到我的页面', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['跳到my order页面', 'click', 'xpath=>/html/body/div[6]/div[1]/div/ul/li[3]/a'], ['点击我的第一个订单', 'click', 'xpath=>/html/body/div[6]/div[2]/div/div[2]/table/tbody/tr[1]/td[1]'], ['勾选全部按钮', 'click', 'xpath=>//*[@id=\"selectAllCheckbox\"]'], ['点击加入购物车', 'click', 'xpath=>/html/body/div[6]/div/div/div[2]/div[1]/div[1]/div/button'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a']]}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f314a4e7a815f9c3.json",
+  "parameterValues" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['跳到我的页面', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['跳到my order页面', 'click', 'xpath=>/html/body/div[6]/div[1]/div/ul/li[3]/a'], ['点击我的第一个订单', 'click', 'xpath=>/html/body/div[6]/div[2]/div/div[2]/table/tbody/tr[1]/td[1]'], ['勾选全部按钮', 'click', 'xpath=>//*[@id=\"selectAllCheckbox\"]'], ['点击加入购物车', 'click', 'xpath=>/html/body/div[6]/div/div/div[2]/div[1]/div[1]/div/button'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a']]}]" ]
+}

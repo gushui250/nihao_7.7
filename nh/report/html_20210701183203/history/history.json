@@ -1,0 +1,42 @@
+{
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73b508b9ed586d18",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir",
+      "time" : {
+        "start" : 1625135520486,
+        "stop" : 1625135520486,
+        "duration" : 0
+      }
+    } ]
+  },
+  "840eb64913aca49ffefce47a8769c3ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39d81a3e9957995",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir",
+      "time" : {
+        "start" : 1625135523863,
+        "stop" : 1625135523863,
+        "duration" : 0
+      }
+    } ]
+  }
+}

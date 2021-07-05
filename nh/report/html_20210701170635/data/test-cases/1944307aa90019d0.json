@@ -1,0 +1,219 @@
+{
+  "uid" : "1944307aa90019d0",
+  "name" : "test01[params0]",
+  "fullName" : "testcase.test_case01.Test_BaiduSearch#test01",
+  "historyId" : "e45bb6e2f90731b6e79db1fedb87cf82",
+  "time" : {
+    "start" : 1625130372859,
+    "stop" : 1625130393627,
+    "duration" : 20768
+  },
+  "description" : "\n        登录case用例\n        :param params:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    登录case用例\n    :param params:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_BaiduSearch",
+    "time" : {
+      "start" : 1625130371317,
+      "stop" : 1625130372857,
+      "duration" : 1540
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        登录case用例\n        :param params:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开网页",
+      "time" : {
+        "start" : 1625130372859,
+        "stop" : 1625130378939,
+        "duration" : 6080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29d6b314f3195da3",
+        "name" : "截图",
+        "source" : "29d6b314f3195da3.png",
+        "type" : "image/png",
+        "size" : 1016457
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1625130378939,
+        "stop" : 1625130382366,
+        "duration" : 3427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "890aa41035c5890a",
+        "name" : "截图",
+        "source" : "890aa41035c5890a.png",
+        "type" : "image/png",
+        "size" : 648155
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入账号",
+      "time" : {
+        "start" : 1625130382366,
+        "stop" : 1625130385602,
+        "duration" : 3236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2faf780b4e8438b1",
+        "name" : "截图",
+        "source" : "2faf780b4e8438b1.png",
+        "type" : "image/png",
+        "size" : 234655
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1625130385602,
+        "stop" : 1625130388815,
+        "duration" : 3213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1233bd0ca7953d2",
+        "name" : "截图",
+        "source" : "d1233bd0ca7953d2.png",
+        "type" : "image/png",
+        "size" : 233585
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1625130388815,
+        "stop" : 1625130393627,
+        "duration" : 4812
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e4e91016ef20161",
+        "name" : "截图",
+        "source" : "5e4e91016ef20161.png",
+        "type" : "image/png",
+        "size" : 233585
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "843d0d547f2b2e96",
+      "name" : "log",
+      "source" : "843d0d547f2b2e96.txt",
+      "type" : "text/plain",
+      "size" : 1269
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_BaiduSearch::0",
+    "time" : {
+      "start" : 1625130395881,
+      "stop" : 1625130395881,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "项目名称: 旎浩"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_BaiduSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T311BD1"
+  }, {
+    "name" : "thread",
+    "value" : "32516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账号', 'send_keys', 'xpath=>//*[@id=\"email\"]', '2770488802@qq.com\\n'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1944307aa90019d0.json",
+  "parameterValues" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账号', 'send_keys', 'xpath=>//*[@id=\"email\"]', '2770488802@qq.com\\n'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]}]" ]
+}

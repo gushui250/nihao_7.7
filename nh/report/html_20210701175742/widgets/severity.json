@@ -1,0 +1,31 @@
+[ {
+  "uid" : "fa3f76790af8e684",
+  "name" : "test01[params0]",
+  "time" : {
+    "start" : 1625133413385,
+    "stop" : 1625133427507,
+    "duration" : 14122
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5ad6dac7c2071620",
+  "name" : "test01[params1]",
+  "time" : {
+    "start" : 1625133429688,
+    "stop" : 1625133437731,
+    "duration" : 8043
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bcf68f15ee65e61c",
+  "name" : "test01[params2]",
+  "time" : {
+    "start" : 1625133445885,
+    "stop" : 1625133453895,
+    "duration" : 8010
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

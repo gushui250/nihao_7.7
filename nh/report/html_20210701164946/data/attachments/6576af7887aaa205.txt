@@ -1,0 +1,12 @@
+INFO     root:logger.py:50 Open url: https://www.nhtest.com
+INFO     root:logger.py:50 Maximize the current window.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Set implicitly wait 10 seconds.
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Had find the element /html/body/div[1]/div/div/a[1] successful 
+INFO     root:logger.py:50 The element xpath=>/html/body/div[1]/div/div/a[1] was clicked.
+ERROR    root:logger.py:53 NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=90.0.4430.212)
+
+INFO     root:logger.py:50 Had take screenshot and save to folder : \screenshots
+INFO     root:logger.py:50 Now, Close and quit the browser.

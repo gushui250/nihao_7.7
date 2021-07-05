@@ -1,0 +1,22 @@
+{
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe4e2b393c51d6e9",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'clear'",
+      "time" : {
+        "start" : 1625129250553,
+        "stop" : 1625129271303,
+        "duration" : 20750
+      }
+    } ]
+  }
+}

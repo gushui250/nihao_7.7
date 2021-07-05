@@ -1,0 +1,31 @@
+[ {
+  "uid" : "9576430f1814bb3f",
+  "name" : "test01[无安全登录操作\n]",
+  "time" : {
+    "start" : 1625220153991,
+    "stop" : 1625220174771,
+    "duration" : 20780
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5d1ba90540f3fe72",
+  "name" : "test01[生成订单\n]",
+  "time" : {
+    "start" : 1625220257461,
+    "stop" : 1625220298619,
+    "duration" : 41158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4059f76ac83e403",
+  "name" : "test01[加入购物车\n]",
+  "time" : {
+    "start" : 1625220194898,
+    "stop" : 1625220237384,
+    "duration" : 42486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

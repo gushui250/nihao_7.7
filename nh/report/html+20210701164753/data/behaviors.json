@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "项目名称: 旎浩",
+    "children" : [ {
+      "name" : "登录模块",
+      "children" : [ {
+        "name" : "test01[params0]",
+        "uid" : "fe4e2b393c51d6e9",
+        "parentUid" : "b4cb405a623105d4bd8f6a5d30608b63",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625129250553,
+          "stop" : 1625129271303,
+          "duration" : 20750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账号', 'send_keys', 'xpath=>//*[@id=\"email\"]', '2770488802@qq.com\\n'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]}]" ]
+      } ],
+      "uid" : "b4cb405a623105d4bd8f6a5d30608b63"
+    } ],
+    "uid" : "8f64d0421c88251fcd6c206f88fdbb91"
+  } ]
+}

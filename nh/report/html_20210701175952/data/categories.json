@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=90.0.4430.212)",
+      "children" : [ {
+        "name" : "test01[params0]",
+        "uid" : "7f8b52b0873adc9e",
+        "parentUid" : "413976d0aead28ea753794a0fa308c53",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625133568333,
+          "stop" : 1625133590400,
+          "duration" : 22067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer/account/login'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账号', 'send_keys', 'xpath=>//*[@id=\"email\"]', '2770488802@qq.com\\n'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]}]" ]
+      } ],
+      "uid" : "413976d0aead28ea753794a0fa308c53"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

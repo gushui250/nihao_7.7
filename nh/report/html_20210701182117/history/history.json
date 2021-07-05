@@ -1,0 +1,42 @@
+{
+  "840eb64913aca49ffefce47a8769c3ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b58ff1967b90cccb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: arguments[0].scrollIntoView is not a function\n  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1625134871245,
+        "stop" : 1625134875673,
+        "duration" : 4428
+      }
+    } ]
+  },
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9b660755b1d67d0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: arguments[0].scrollIntoView is not a function\n  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1625134865756,
+        "stop" : 1625134871163,
+        "duration" : 5407
+      }
+    } ]
+  }
+}

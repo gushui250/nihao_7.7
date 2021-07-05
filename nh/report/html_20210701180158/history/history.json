@@ -1,0 +1,22 @@
+{
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c6deb0ef3f17828",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: arguments[0].scrollIntoView is not a function\n  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1625133702669,
+        "stop" : 1625133716603,
+        "duration" : 13934
+      }
+    } ]
+  }
+}

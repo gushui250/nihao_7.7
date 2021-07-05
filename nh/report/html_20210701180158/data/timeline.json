@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-T311BD1",
+    "children" : [ {
+      "name" : "34576-MainThread",
+      "children" : [ {
+        "name" : "test01[params0]",
+        "uid" : "9c6deb0ef3f17828",
+        "parentUid" : "352253a3cb1d45562a6e90b07d536bb9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625133702669,
+          "stop" : 1625133716603,
+          "duration" : 13934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer/account/login'], ['点击登录', 'click', 'xpath=>/html/body/div[1]/div/div/a[1]'], ['输入账号', 'send_keys', 'xpath=>//*[@id=\"email\"]', '2770488802@qq.com\\n'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]}]" ]
+      } ],
+      "uid" : "352253a3cb1d45562a6e90b07d536bb9"
+    } ],
+    "uid" : "047d9d2984a25a21d0de3d78c00a1bbf"
+  } ]
+}

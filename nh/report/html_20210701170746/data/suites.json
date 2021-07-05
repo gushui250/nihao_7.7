@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_case01",
+      "children" : [ {
+        "name" : "Test_BaiduSearch",
+        "children" : [ {
+          "name" : "test01[params0]",
+          "uid" : "6792ad36bd0aba5d",
+          "parentUid" : "cab2c9c8ff78e2c0eaffc5009ca1594a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1625130448012,
+            "stop" : 1625130464066,
+            "duration" : 16054
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/customer/account/login'], ['输入账号', 'send_keys', 'xpath=>//*[@id=\"email\"]', '2770488802@qq.com\\n'], ['输入密码', 'send_keys', 'xpath=>//*[@id=\"password\"]', '123456\\n'], ['点击登录', 'click', 'xpath=>//*[@id=\"saveButton\"]']]}]" ]
+        } ],
+        "uid" : "cab2c9c8ff78e2c0eaffc5009ca1594a"
+      } ],
+      "uid" : "10d260729895b9ba65f9d270ab55defe"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

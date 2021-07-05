@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_case01",
+      "children" : [ {
+        "name" : "Test_BaiduSearch",
+        "children" : [ {
+          "name" : "test01[params0]",
+          "uid" : "cb948bf0d4b75858",
+          "parentUid" : "cab2c9c8ff78e2c0eaffc5009ca1594a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1625213060595,
+            "stop" : 1625213102973,
+            "duration" : 42378
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a'], ['点击checkout now', 'click', 'xpath=>//*[@id=\"J_Total_Cart\"]/div[2]/div[2]/a'], ['点击pay now', 'click', 'xpath=>//*[@id=\"orderForm\"]/div/div[3]/div[2]/div[15]/button'], ['选择西联支付', 'click', 'xpath=>/html/body/div[4]/div[1]/div[1]/div[9]/div[1]/i'], ['点击pay now', 'click', 'xpath=>//*[@id=\"payJump\"]'], ['点击确定', 'click', 'xpath=>//*[@id=\"J_Card_Modal\"]/div/span[1]']]}]" ]
+        } ],
+        "uid" : "cab2c9c8ff78e2c0eaffc5009ca1594a"
+      } ],
+      "uid" : "10d260729895b9ba65f9d270ab55defe"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

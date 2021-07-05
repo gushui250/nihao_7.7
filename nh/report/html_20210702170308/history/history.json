@@ -1,0 +1,62 @@
+{
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "546d93c992eb9f24",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Test_BaiduSearch' has no attribute 'story'",
+      "time" : {
+        "start" : 1625216588098,
+        "stop" : 1625216588098,
+        "duration" : 0
+      }
+    } ]
+  },
+  "840eb64913aca49ffefce47a8769c3ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7852873ea816dcbf",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Test_BaiduSearch' has no attribute 'story'",
+      "time" : {
+        "start" : 1625216588180,
+        "stop" : 1625216588180,
+        "duration" : 0
+      }
+    } ]
+  },
+  "80f4977b99497c6b5b378df020aa507c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c2fd1a942b0d594",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Test_BaiduSearch' has no attribute 'story'",
+      "time" : {
+        "start" : 1625216588186,
+        "stop" : 1625216588186,
+        "duration" : 0
+      }
+    } ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "840eb64913aca49ffefce47a8769c3ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ad6dac7c2071620",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58987): Max retries exceeded with url: /session/c3d1d7821924272daf80c318e58b384a/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020AE0862550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1625133429688,
+        "stop" : 1625133437731,
+        "duration" : 8043
+      }
+    } ]
+  },
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa3f76790af8e684",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: arguments[0].scrollIntoView is not a function\n  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1625133413385,
+        "stop" : 1625133427507,
+        "duration" : 14122
+      }
+    } ]
+  },
+  "80f4977b99497c6b5b378df020aa507c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bcf68f15ee65e61c",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58987): Max retries exceeded with url: /session/c3d1d7821924272daf80c318e58b384a/cookie (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020AE0A70E48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1625133445885,
+        "stop" : 1625133453895,
+        "duration" : 8010
+      }
+    } ]
+  }
+}

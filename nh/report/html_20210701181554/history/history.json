@@ -1,0 +1,61 @@
+{
+  "840eb64913aca49ffefce47a8769c3ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97853cf9a6519e9a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: failed to change window state to 'normal', current state is 'maximized'\n  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1625134494048,
+        "stop" : 1625134503255,
+        "duration" : 9207
+      }
+    } ]
+  },
+  "e45bb6e2f90731b6e79db1fedb87cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "412991676c1a2e9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625134470947,
+        "stop" : 1625134494040,
+        "duration" : 23093
+      }
+    } ]
+  },
+  "80f4977b99497c6b5b378df020aa507c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7307aa65920b8ff",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: arguments[0].scrollIntoView is not a function\n  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1625134503447,
+        "stop" : 1625134536890,
+        "duration" : 33443
+      }
+    } ]
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "uid" : "2a65d5fc5779c8a2",
+  "name" : "test01[params2]",
+  "fullName" : "testcase.test_case01.Test_BaiduSearch#test01",
+  "historyId" : "80f4977b99497c6b5b378df020aa507c",
+  "time" : {
+    "start" : 1625215007067,
+    "stop" : 1625215050010,
+    "duration" : 42943
+  },
+  "description" : "\n        登录case用例\n        :param params:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    登录case用例\n    :param params:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_BaiduSearch",
+    "time" : {
+      "start" : 1625214903349,
+      "stop" : 1625214903366,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        登录case用例\n        :param params:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开网页",
+      "time" : {
+        "start" : 1625215007067,
+        "stop" : 1625215015455,
+        "duration" : 8388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93034d277be6f98e",
+        "name" : "截图",
+        "source" : "93034d277be6f98e.png",
+        "type" : "image/png",
+        "size" : 407524
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "跳到首页",
+      "time" : {
+        "start" : 1625215015455,
+        "stop" : 1625215021356,
+        "duration" : 5901
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d7e3c8e124dda65",
+        "name" : "截图",
+        "source" : "d7e3c8e124dda65.png",
+        "type" : "image/png",
+        "size" : 410760
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击购物车图标",
+      "time" : {
+        "start" : 1625215021356,
+        "stop" : 1625215026921,
+        "duration" : 5565
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dada5ba8bbd22858",
+        "name" : "截图",
+        "source" : "dada5ba8bbd22858.png",
+        "type" : "image/png",
+        "size" : 650091
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击checkout now",
+      "time" : {
+        "start" : 1625215026921,
+        "stop" : 1625215030239,
+        "duration" : 3318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f01aa3f80c22cee0",
+        "name" : "截图",
+        "source" : "f01aa3f80c22cee0.png",
+        "type" : "image/png",
+        "size" : 363465
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击pay now",
+      "time" : {
+        "start" : 1625215030239,
+        "stop" : 1625215037807,
+        "duration" : 7568
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d10070253a2541d0",
+        "name" : "截图",
+        "source" : "d10070253a2541d0.png",
+        "type" : "image/png",
+        "size" : 324830
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择西联支付",
+      "time" : {
+        "start" : 1625215037807,
+        "stop" : 1625215041050,
+        "duration" : 3243
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9088fef2b40d373c",
+        "name" : "截图",
+        "source" : "9088fef2b40d373c.png",
+        "type" : "image/png",
+        "size" : 331827
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击pay now",
+      "time" : {
+        "start" : 1625215041050,
+        "stop" : 1625215046797,
+        "duration" : 5747
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3fe17f5d2b6092bf",
+        "name" : "截图",
+        "source" : "3fe17f5d2b6092bf.png",
+        "type" : "image/png",
+        "size" : 153169
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1625215046797,
+        "stop" : 1625215050010,
+        "duration" : 3213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db8ce12d227948ac",
+        "name" : "截图",
+        "source" : "db8ce12d227948ac.png",
+        "type" : "image/png",
+        "size" : 268746
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "203f574ca02c756a",
+      "name" : "log",
+      "source" : "203f574ca02c756a.txt",
+      "type" : "text/plain",
+      "size" : 2286
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_BaiduSearch::0",
+    "time" : {
+      "start" : 1625215070089,
+      "stop" : 1625215072099,
+      "duration" : 2010
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "项目名称: 旎浩"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_BaiduSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T311BD1"
+  }, {
+    "name" : "thread",
+    "value" : "27864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a'], ['点击checkout now', 'click', 'xpath=>//*[@id=\"J_Total_Cart\"]/div[2]/div[2]/a'], ['点击pay now', 'click', 'xpath=>//*[@id=\"orderForm\"]/div/div[3]/div[2]/div[15]/button'], ['选择西联支付', 'click', 'xpath=>/html/body/div[4]/div[1]/div[1]/div[9]/div[1]/i'], ['点击pay now', 'click', 'xpath=>//*[@id=\"payJump\"]'], ['点击确定', 'click', 'xpath=>//*[@id=\"J_Card_Modal\"]/div/span[1]']]}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a65d5fc5779c8a2.json",
+  "parameterValues" : [ "[{'tital': [['打开网页', 'open_browser', 'https://www.nhtest.com/en/customer'], ['跳到首页', 'click', 'xpath=>//*[@id=\"g-head\"]/div/p/a'], ['点击购物车图标', 'click', 'xpath=>//*[@id=\"J_HeadCart\"]/div/a'], ['点击checkout now', 'click', 'xpath=>//*[@id=\"J_Total_Cart\"]/div[2]/div[2]/a'], ['点击pay now', 'click', 'xpath=>//*[@id=\"orderForm\"]/div/div[3]/div[2]/div[15]/button'], ['选择西联支付', 'click', 'xpath=>/html/body/div[4]/div[1]/div[1]/div[9]/div[1]/i'], ['点击pay now', 'click', 'xpath=>//*[@id=\"payJump\"]'], ['点击确定', 'click', 'xpath=>//*[@id=\"J_Card_Modal\"]/div/span[1]']]}]" ]
+}
