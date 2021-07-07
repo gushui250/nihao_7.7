@@ -33,7 +33,7 @@ class BasePage(object):
         from selenium import webdriver
         self.option = webdriver.ChromeOptions()
         self.option.add_argument(
-            rf'--user-data-dir=C:\Users\A\AppData\Local\Google\Chrome\UserData\Default')  # 设置成用户自己的数据目录
+            rf'--user-data-dir=C:\Users\ASUS\AppData\Local\Google\Chrome\UserData\Default')  # 设置成用户自己的数据目录
         dir = os.path.dirname(os.path.abspath('.'))  # 注意相对路径获取方法
         self.chrome_driver_path = dir + '/tools/chromedriver.exe'
         ie_driver_path = dir + '/tools/IEDriverServer.exe'
